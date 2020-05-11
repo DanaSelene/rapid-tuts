@@ -6,6 +6,9 @@ ruby '2.5.7'
 #this is for tut 4 bootstrap content:
 gem 'bootstrap-sass', '3.3.7'
 
+#this is for tut 4 test content-last bit-followed by error messages on the console:
+gem 'rails-controller-testing'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 # Use postgresql as the database for Active Record
