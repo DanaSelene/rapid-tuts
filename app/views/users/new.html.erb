@@ -1,15 +1,15 @@
 <!--
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+# <h1>Users#new</h1>
+# <p>Find me in app/views/users/new.html.erb</p>
 
 
-below it changes from Listing 5.46:
+# below it changes from Listing 5.46:
 
-same line here as line 15, but it can not be hashed, so i deleted it
-<h1>Sign up</h1>
-<p>This will be a signup page for new users.</p>
+# same line here as line 15, but it can not be hashed, so i deleted it
+# <h1>Sign up</h1>
+# <p>This will be a signup page for new users.</p>
 
-below is changes from Listing 7.15:
+# below is changes from Listing 7.15:
 -->
 
 <% provide(:title, 'Sign up') %>
@@ -17,7 +17,7 @@ below is changes from Listing 7.15:
 
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
-    <%= form_for(@user, url: signup_path) do |f| %>
+        <%= form_for(@user, url: signup_path) do |f| %>
             <%= render 'shared/error_messages' %>
 
             <%= f.label :name %>
