@@ -13,7 +13,11 @@ gem 'rails-controller-testing'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 
 #BOOK-listing 6.36--for password test/validation in log?or sign in?
+<<<<<<< HEAD
 gem 'bcrypt',             '3.1.12' #similar as line 13
+=======
+gem 'bcrypt', '3.1.12' #similar as line 13
+>>>>>>> tut-6-end
 
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
