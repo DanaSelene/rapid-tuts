@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.7'
 
 #this is for tut 4 bootstrap content:
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 
 #this is for tut 4 test content-last bit-followed by error messages on the console:
 gem 'rails-controller-testing'
