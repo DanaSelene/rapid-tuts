@@ -11,6 +11,7 @@ class SessionsController < ApplicationController
       log_in user
       redirect_to user
     else
+      # Listing 8.8:
       # flash[:danger] = 'Invalid email/password combination' # Not quite right!
 
       # Listing 8.11:
