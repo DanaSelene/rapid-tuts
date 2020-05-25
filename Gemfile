@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.7'
+# ruby '2.7.0' #??
 
 #this is for tut 4 bootstrap content:
 gem 'bootstrap-sass', '3.3.7'
